@@ -19,7 +19,10 @@ private:
 	QGridLayout *mainLayout;
 	QPushButton *colorBtn;
 	QFrame *colorFrame;
+	QPushButton *fontBtn;
+	QLineEdit *fontLineEdit;
 private slots:
 	void showFile();
 	void showColor();
+	void showFont();
 };
