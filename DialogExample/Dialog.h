@@ -17,6 +17,9 @@ private:
 	QPushButton *fileBtn;
 	QLineEdit *fileLineEdit;
 	QGridLayout *mainLayout;
+	QPushButton *colorBtn;
+	QFrame *colorFrame;
 private slots:
 	void showFile();
+	void showColor();
 };
