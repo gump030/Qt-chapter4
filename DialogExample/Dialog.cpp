@@ -25,6 +25,9 @@ Dialog::Dialog(QWidget *parent)
 	inputBtn = new QPushButton;
 	inputBtn->setText(tr("标准输入对话框实例"));
 
+	MsgBtn = new QPushButton;
+	MsgBtn->setText(tr("标准消息对话框实例"));
+
 	mainLayout = new QGridLayout(this);
 	mainLayout->addWidget(fileBtn, 0, 0);
 	mainLayout->addWidget(fileLineEdit, 0, 1);
@@ -33,11 +36,13 @@ Dialog::Dialog(QWidget *parent)
 	mainLayout->addWidget(fontBtn, 2, 0);
 	mainLayout->addWidget(fontLineEdit, 2, 1);
 	mainLayout->addWidget(inputBtn, 3, 0);
+	mainLayout->addWidget(MsgBtn, 3, 1);
 
 	connect(fileBtn, SIGNAL(clicked()), this, SLOT(showFile()));
 	connect(colorBtn, SIGNAL(clicked()), this, SLOT(showColor()));
 	connect(fontBtn, SIGNAL(clicked()), this, SLOT(showFont()));
 	connect(inputBtn, SIGNAL(clicked()), this, SLOT(showInputDlg()));
+	connect(MsgBtn, SIGNAL(clicked()), this, SLOT(showMsgDlg()));
 }
 
 void Dialog::showFile()
@@ -69,4 +74,10 @@ void Dialog::showInputDlg()
 {
 	inputDlg = new InputDlg(this);
 	inputDlg->show();
+}
+
+void Dialog::showMsgDlg()
+{
+	msgDlg = new MsgBoxDlg();
+	msgDlg->show();
 }

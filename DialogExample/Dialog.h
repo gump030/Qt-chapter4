@@ -3,6 +3,7 @@
 #include <QtWidgets/QDialog>
 #include "ui_Dialog.h"
 #include "inputdlg.h"
+#include "msgboxdlg.h"
 #include <qgridlayout.h>
 #include <qlineedit.h>
 #include <qpushbutton.h>
@@ -23,10 +24,13 @@ private:
 	QPushButton *fontBtn;
 	QLineEdit *fontLineEdit;
 	QPushButton *inputBtn;
+	QPushButton *MsgBtn;
 	InputDlg *inputDlg;
+	MsgBoxDlg *msgDlg;
 private slots:
 	void showFile();
 	void showColor();
 	void showFont();
 	void showInputDlg();
+	void showMsgDlg();
 };
