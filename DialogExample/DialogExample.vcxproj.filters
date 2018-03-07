@@ -36,9 +36,15 @@
     <ClCompile Include="Dialog.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="inputdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="Dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="inputdlg.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>

@@ -116,6 +116,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Dialog.cpp" />
+    <ClCompile Include="inputdlg.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -129,6 +130,9 @@
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="DialogExample.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="inputdlg.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

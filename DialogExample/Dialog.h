@@ -2,6 +2,7 @@
 #pragma execution_character_set("utf-8")
 #include <QtWidgets/QDialog>
 #include "ui_Dialog.h"
+#include "inputdlg.h"
 #include <qgridlayout.h>
 #include <qlineedit.h>
 #include <qpushbutton.h>
@@ -21,8 +22,11 @@ private:
 	QFrame *colorFrame;
 	QPushButton *fontBtn;
 	QLineEdit *fontLineEdit;
+	QPushButton *inputBtn;
+	InputDlg *inputDlg;
 private slots:
 	void showFile();
 	void showColor();
 	void showFont();
+	void showInputDlg();
 };
