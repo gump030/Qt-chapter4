@@ -27,10 +27,13 @@ private:
 	QPushButton *MsgBtn;
 	InputDlg *inputDlg;
 	MsgBoxDlg *msgDlg;
+	QPushButton *CustomBtn;
+	QLabel *label;
 private slots:
 	void showFile();
 	void showColor();
 	void showFont();
 	void showInputDlg();
 	void showMsgDlg();
+	void showCustomDlg();
 };

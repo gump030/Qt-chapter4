@@ -115,6 +115,7 @@
     </QtRcc>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="customdlg.cpp" />
     <ClCompile Include="Dialog.cpp" />
     <ClCompile Include="inputdlg.cpp" />
     <ClCompile Include="main.cpp" />
@@ -137,6 +138,9 @@
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="msgboxdlg.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="customdlg.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

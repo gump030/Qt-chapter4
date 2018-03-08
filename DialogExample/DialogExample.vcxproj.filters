@@ -42,6 +42,9 @@
     <ClCompile Include="msgboxdlg.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="customdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="Dialog.h">
@@ -51,6 +54,9 @@
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="msgboxdlg.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="customdlg.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>
