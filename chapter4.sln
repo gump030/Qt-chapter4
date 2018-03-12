@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Clock", "Clock\Clock.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExtensionDlg", "ExtensionDlg\ExtensionDlg.vcxproj", "{F8904E28-510B-4966-A6B1-319E8E3F0B67}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShapeWidget", "ShapeWidget\ShapeWidget.vcxproj", "{EDD822FB-8E4A-4B6C-9AF4-86F657961931}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -45,6 +47,10 @@ Global
 		{F8904E28-510B-4966-A6B1-319E8E3F0B67}.Debug|x64.Build.0 = Debug|x64
 		{F8904E28-510B-4966-A6B1-319E8E3F0B67}.Release|x64.ActiveCfg = Release|x64
 		{F8904E28-510B-4966-A6B1-319E8E3F0B67}.Release|x64.Build.0 = Release|x64
+		{EDD822FB-8E4A-4B6C-9AF4-86F657961931}.Debug|x64.ActiveCfg = Debug|x64
+		{EDD822FB-8E4A-4B6C-9AF4-86F657961931}.Debug|x64.Build.0 = Debug|x64
+		{EDD822FB-8E4A-4B6C-9AF4-86F657961931}.Release|x64.ActiveCfg = Release|x64
+		{EDD822FB-8E4A-4B6C-9AF4-86F657961931}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
