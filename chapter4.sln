@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExtensionDlg", "ExtensionDl
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShapeWidget", "ShapeWidget\ShapeWidget.vcxproj", "{EDD822FB-8E4A-4B6C-9AF4-86F657961931}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SplashScreen", "SplashScreen\SplashScreen.vcxproj", "{F0044015-1F25-40FD-806E-271E3E52D5CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,10 @@ Global
 		{EDD822FB-8E4A-4B6C-9AF4-86F657961931}.Debug|x64.Build.0 = Debug|x64
 		{EDD822FB-8E4A-4B6C-9AF4-86F657961931}.Release|x64.ActiveCfg = Release|x64
 		{EDD822FB-8E4A-4B6C-9AF4-86F657961931}.Release|x64.Build.0 = Release|x64
+		{F0044015-1F25-40FD-806E-271E3E52D5CA}.Debug|x64.ActiveCfg = Debug|x64
+		{F0044015-1F25-40FD-806E-271E3E52D5CA}.Debug|x64.Build.0 = Debug|x64
+		{F0044015-1F25-40FD-806E-271E3E52D5CA}.Release|x64.ActiveCfg = Release|x64
+		{F0044015-1F25-40FD-806E-271E3E52D5CA}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
